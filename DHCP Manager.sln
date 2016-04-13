@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHCP Manager", "DHCP Manager\DHCP Manager.vcxproj", "{FCD2C1B9-EAF0-4E0E-A960-83A7DED5A879}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHCP", "..\DHCP Static Library\DHCP\DHCP.vcxproj", "{966D8B5D-EECB-432A-ABB8-39F8CCFD00E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHCPhistorylogger", "..\DHCPhistorylogger\DHCPhistorylogger\DHCPhistorylogger.vcxproj", "{7C2B188C-E37F-4B12-A892-141E67C58891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD2C1B9-EAF0-4E0E-A960-83A7DED5A879}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCD2C1B9-EAF0-4E0E-A960-83A7DED5A879}.Debug|Win32.Build.0 = Debug|Win32
+		{FCD2C1B9-EAF0-4E0E-A960-83A7DED5A879}.Release|Win32.ActiveCfg = Release|Win32
+		{FCD2C1B9-EAF0-4E0E-A960-83A7DED5A879}.Release|Win32.Build.0 = Release|Win32
+		{966D8B5D-EECB-432A-ABB8-39F8CCFD00E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{966D8B5D-EECB-432A-ABB8-39F8CCFD00E8}.Debug|Win32.Build.0 = Debug|Win32
+		{966D8B5D-EECB-432A-ABB8-39F8CCFD00E8}.Release|Win32.ActiveCfg = Release|Win32
+		{966D8B5D-EECB-432A-ABB8-39F8CCFD00E8}.Release|Win32.Build.0 = Release|Win32
+		{7C2B188C-E37F-4B12-A892-141E67C58891}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C2B188C-E37F-4B12-A892-141E67C58891}.Debug|Win32.Build.0 = Debug|Win32
+		{7C2B188C-E37F-4B12-A892-141E67C58891}.Release|Win32.ActiveCfg = Release|Win32
+		{7C2B188C-E37F-4B12-A892-141E67C58891}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
