@@ -6,6 +6,11 @@
 using namespace std;
 
 bool read_history(DHCP_ENTRY & output, istream & history_file) {
+	// Reads in a line from history log - previously logged content
+	// In format IPADDRESS DATE MACADDRESS HOSTNAME
+	// HOSTNAME is optional, other values are not
+	// DATE only stores the latest date for the connection
+
 	output.clear();
 	string rawdata;
 	if (getline(history_file, rawdata)) {
@@ -60,6 +65,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	DHCP_ENTRY current_entry;
 
 	while (read_history(current_entry, history_file)) {
+		// Reads in 
 		current_entry.print();
 	}
 
